@@ -1,9 +1,4 @@
-let data = "Ts";
-let test1 = data;
-let test2 = data;
+const test = [10, 20];
+let objTest = { id: 1, name: "Kaveh" };
 export {};
-// if(typeof data === "string"){
-//     let test3:string = data
-//     console.log(test)
-// }
 //# sourceMappingURL=test.js.map
