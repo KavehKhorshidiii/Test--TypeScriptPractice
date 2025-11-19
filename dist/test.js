@@ -1,6 +1,9 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-let test;
-test = 10;
-console.log(test);
+let data = "Ts";
+let test1 = data;
+let test2 = data;
+export {};
+// if(typeof data === "string"){
+//     let test3:string = data
+//     console.log(test)
+// }
 //# sourceMappingURL=test.js.map

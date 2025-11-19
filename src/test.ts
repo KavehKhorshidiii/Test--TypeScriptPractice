@@ -1,5 +1,15 @@
-let test: 10 | true
+let data:unknown = "Ts"
 
-test=10
+let test1:string = data as string
 
-console.log(test)
+let test2:string = <string>data
+
+
+// if(typeof data === "string"){
+
+//     let test3:string = data
+//     console.log(test)
+
+// }
+
+
