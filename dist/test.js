@@ -1,7 +1,3 @@
-function sum(num1, num2) {
-    return num1 + num2;
-}
-const arr = [10, 10];
-console.log(sum(...arr));
+let myVar = 12;
 export {};
 //# sourceMappingURL=test.js.map
