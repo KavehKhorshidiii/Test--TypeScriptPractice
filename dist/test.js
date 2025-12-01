@@ -1,8 +1,12 @@
-const myFunc = (a, b, run) => {
-    let box = a + b;
-    console.log(box);
-    run();
-};
-myFunc(2, 2, () => { console.log("object"); });
+class animal {
+    move() { console.log("moving..."); }
+}
+class Dog extends animal {
+    bark() { console.log("woof!"); }
+}
+const tede = new Dog();
+console.log(tede);
+tede.move();
+tede.bark();
 export {};
 //# sourceMappingURL=test.js.map
