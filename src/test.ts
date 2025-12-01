@@ -1,9 +1,7 @@
-interface user {
-    name:string
-    age:number
+interface myNum {
+    (a:number , b:number):number
 }
 
-const p1:user={
-    name:"kaka",
-    age:12    
-}
+const box:myNum = (x , y)=>x + y
+
+console.log( box(2 , 2) )
