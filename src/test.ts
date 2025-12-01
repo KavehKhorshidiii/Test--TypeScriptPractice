@@ -1,8 +1,9 @@
-class person{
+interface user {
+    name:string
+    age:number
+}
 
-    constructor(public name:String ,private age:Number){
-        this.name = name
-        this.age = age
-    }
-    
+const p1:user={
+    name:"kaka",
+    age:12    
 }

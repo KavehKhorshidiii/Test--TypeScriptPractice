@@ -1,12 +1,6 @@
-class person {
-    name;
-    age;
-    constructor(name, age) {
-        this.name = name;
-        this.age = age;
-        this.name = name;
-        this.age = age;
-    }
-}
+const p1 = {
+    name: "kaka",
+    age: 12
+};
 export {};
 //# sourceMappingURL=test.js.map
