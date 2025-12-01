@@ -1,12 +1,8 @@
-class animal{
-    move(){console.log("moving...")}
-}
-class Dog extends animal{
-    bark(){console.log("woof!")}
-}
+class person{
 
-const tede:Dog = new Dog()
-console.log(tede)
-
-tede.move()
-tede.bark()
+    constructor(public name:String ,private age:Number){
+        this.name = name
+        this.age = age
+    }
+    
+}

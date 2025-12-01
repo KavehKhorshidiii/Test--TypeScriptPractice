@@ -1,12 +1,12 @@
-class animal {
-    move() { console.log("moving..."); }
+class person {
+    name;
+    age;
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+        this.name = name;
+        this.age = age;
+    }
 }
-class Dog extends animal {
-    bark() { console.log("woof!"); }
-}
-const tede = new Dog();
-console.log(tede);
-tede.move();
-tede.bark();
 export {};
 //# sourceMappingURL=test.js.map
